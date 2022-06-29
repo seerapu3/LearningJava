@@ -1,4 +1,4 @@
-package javaBasics;
+package loops;
 
 public class Forloops {
 
