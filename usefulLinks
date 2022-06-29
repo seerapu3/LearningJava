@@ -1,2 +1,9 @@
+My git tokken : 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
 Push local repo to git hub repository : 
 https://www.youtube.com/watch?v=vbQ2bYHxxEA
+
+First Create Repo in local
+git init
+add changes
+commit change
+create git repo in git hub
