@@ -1,9 +1,8 @@
-package javaBasics;
+package exceptionsHandling;
 
-public class TwoDimensionArrays {
+public class ExceptionHandling {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	}
-	
 }

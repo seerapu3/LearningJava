@@ -1,6 +1,6 @@
-package javaBasics;
+package arrays;
 
-public class BreakAndContinue {
+public class OneDimensionArrays {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
