@@ -3,6 +3,6 @@ package javaBasics;
 public class WelcomeMessage {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to learn Java from mac");
+		System.out.println("Welcome to learn Java from from windows");
 	}
 }
