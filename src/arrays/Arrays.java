@@ -29,6 +29,12 @@ public class Arrays {
 		{
 			System.out.println(arrayList[i]);
 		}
+		
+		String[] cars =  {"Volvo", "BMW", "Ford", "Mazda"};
+		int[] myNum = {10, 20, 30, 40};
+		System.out.println(cars[0]);
+		cars[0] = "Opel";
+		System.out.println(cars[0]);
 
 	}
 
