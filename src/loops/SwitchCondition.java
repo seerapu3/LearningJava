@@ -14,7 +14,7 @@ public class SwitchCondition {
 		    break;
 		  case 3:
 		    System.out.println("Wednesday");
-		    break;
+		  
 		  case 4:
 		    System.out.println("Thursday");
 		    break;
@@ -29,6 +29,8 @@ public class SwitchCondition {
 		    break;
 		  default:
 			    System.out.println("Looking forward to the Weekend");
+		    break;
+		  
 		}
 		// Outputs "Thursday" (day 4)
 	}
