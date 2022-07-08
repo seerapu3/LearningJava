@@ -6,7 +6,8 @@ public class ThreeDArrays {
 		
 		int[][][] EmployeesNum3D = new int[2][3][4];
 		
-		// 
+		// Total 2 two dimentional arrays
+		// in first 2 dimentional array we get 3 indexes, each index will store 4 values
 		EmployeesNum3D[0][0][0] = 1;
 		EmployeesNum3D[0][0][1] = 2;
 		EmployeesNum3D[0][0][2] = 3;
@@ -22,6 +23,7 @@ public class ThreeDArrays {
 		EmployeesNum3D[0][2][2] = 11;
 		EmployeesNum3D[0][2][3] = 12;
 		
+		// // in another 2 dimentional array we get 3 indexes, each index will store 4 values
 		EmployeesNum3D[1][0][0] = 11;
 		EmployeesNum3D[1][0][1] = 21;
 		EmployeesNum3D[1][0][2] = 31;
