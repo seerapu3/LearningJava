@@ -4,38 +4,49 @@ public class Arrays {
 
 	public static void main(String[] args) {
 
-		// Method 1
-		int[] arrayList = new int[10];
-		arrayList[0] = 10;
-		arrayList[2] = 12;
-		arrayList[4] = 102;
-		arrayList[5] = 15;
-		arrayList[6] = 156;
+		int[] listnumber = new int[10];
+		System.out.println(listnumber.length);	
 
-		for(int i= 0; i < arrayList.length; i++)
+		listnumber[0] = 10;
+		listnumber[1] = 1;
+		listnumber[2] = 450;
+		listnumber[3] = 156;
+		listnumber[4] = 1045;
+		System.out.println("This will print the address of the array"+listnumber);
+
+		for(int index = 0; index < listnumber.length ; index++)
 		{
-			System.out.println(arrayList[i]);
+			System.out.println(listnumber[index]);
 		}
 
-		// Method 1
-		int[] arrayList2 = new int[10];;
-		arrayList2[0] = 10;
-		arrayList2[2] = 12;
-		arrayList2[4] = 102;
-		arrayList2[5] = 15;
-		arrayList2[6] = 156;
-
-		for(int i= 0; i < arrayList.length; i++)
+		// We can print the array values using for each 
+		for(int value:listnumber)
 		{
-			System.out.println(arrayList[i]);
+			System.out.println(value);
 		}
-		
-		String[] cars =  {"Volvo", "BMW", "Ford", "Mazda"};
-		int[] myNum = {10, 20, 30, 40};
-		System.out.println(cars[0]);
-		cars[0] = "Opel";
-		System.out.println(cars[0]);
 
+		String[] name = new String[5];
+		name[0]= "Prasad";
+		name[1]= "Nikki";
+		name[3]= "Lakki";
+		name[4]= "Seerapu";
+		name[2]= "Nirmala";
+
+		for(int index = 0; index < name.length ; index++)
+		{
+			System.out.println(name[index]);
+		}
+
+		// We can print the array values using for each 
+		for(String value:name)
+		{
+			System.out.println(value);
+		}
+		// Reverse order
+		for(int index = name.length - 1; index >= 0 ; index--)
+		{
+			System.out.println(name[index]);
+		}
 	}
 
 }
